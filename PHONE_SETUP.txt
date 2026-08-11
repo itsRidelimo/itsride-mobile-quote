@@ -1,17 +1,24 @@
-itsRide Mobile Rate & Quote Calculator - Phone Setup
+itsRide Mobile Rate & Quote Calculator V1.2
 
-IMPORTANT: Do not open index.html directly from iPhone/Android Files or a downloaded-file preview. Mobile browsers may block JavaScript in file previews.
+WHAT CHANGED
+- Distance Pricing now requires FROM address, TO address, and One-Way Distance (KM).
+- Manual Base Fare now requires FROM and TO addresses.
+- 0 km no longer produces a base fare.
+- Round Trip doubles the one-way transportation amount.
+- Swap From / To button added.
+- Customer PNG/JPG shows FROM and TO addresses; kilometres remain internal.
+- 171 official routes and existing official-route prices are preserved.
+- Service worker updated to reduce stale-version caching after GitHub updates.
 
-Publish this folder to an HTTPS website (GitHub Pages is sufficient), then open the HTTPS link in Safari/Chrome.
+GITHUB UPDATE
+1. Open the existing itsride-mobile-quote repository.
+2. Upload/replace ALL files from this V1.2 package in the repository root.
+3. Commit changes to main.
+4. Wait for GitHub Pages deployment.
+5. Open https://itsridelimo.github.io/itsride-mobile-quote/
+6. Refresh once. If an older installed Home Screen version remains, close it and reopen after the web page shows V1.2.
 
-GitHub Pages quick setup:
-1. Upload ALL files from this folder to a GitHub repository root.
-2. Repository Settings > Pages.
-3. Source: Deploy from a branch.
-4. Branch: main, Folder: /(root), then Save.
-5. Open the GitHub Pages HTTPS address shown by GitHub.
-
-iPhone: Safari > Share > Add to Home Screen.
-Android: Chrome > menu > Add to Home screen / Install app.
-
-The calculator contains 171 official routes and works without a database. After first successful load it can also cache itself for offline use.
+PRICING WORKFLOW
+Official Route Rate: select saved route and vehicle.
+Distance Pricing: enter FROM, TO and one-way km.
+Manual Base Fare: enter FROM, TO and negotiated one-way fare.
