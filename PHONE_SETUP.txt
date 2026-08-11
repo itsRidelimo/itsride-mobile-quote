@@ -1,0 +1,17 @@
+itsRide Mobile Rate & Quote Calculator - Phone Setup
+
+IMPORTANT: Do not open index.html directly from iPhone/Android Files or a downloaded-file preview. Mobile browsers may block JavaScript in file previews.
+
+Publish this folder to an HTTPS website (GitHub Pages is sufficient), then open the HTTPS link in Safari/Chrome.
+
+GitHub Pages quick setup:
+1. Upload ALL files from this folder to a GitHub repository root.
+2. Repository Settings > Pages.
+3. Source: Deploy from a branch.
+4. Branch: main, Folder: /(root), then Save.
+5. Open the GitHub Pages HTTPS address shown by GitHub.
+
+iPhone: Safari > Share > Add to Home Screen.
+Android: Chrome > menu > Add to Home screen / Install app.
+
+The calculator contains 171 official routes and works without a database. After first successful load it can also cache itself for offline use.
