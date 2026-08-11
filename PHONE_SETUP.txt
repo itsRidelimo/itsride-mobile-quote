@@ -1,22 +1,26 @@
-itsRide Mobile Rate & Quote Calculator V1.2
+itsRide Mobile Rate & Quote Calculator V1.3
 
 WHAT CHANGED
-- Distance Pricing now requires FROM address, TO address, and One-Way Distance (KM).
-- Manual Base Fare now requires FROM and TO addresses.
-- 0 km no longer produces a base fare.
-- Round Trip doubles the one-way transportation amount.
-- Swap From / To button added.
-- Customer PNG/JPG shows FROM and TO addresses; kilometres remain internal.
-- 171 official routes and existing official-route prices are preserved.
-- Service worker updated to reduce stale-version caching after GitHub updates.
+- Customer pricing line renamed from Transportation to Base Fare.
+- Professional Quote Reference added automatically.
+- Optional Service Date and Pickup Time added.
+- Optional Passenger and Luggage counts added.
+- Optional Flight / Client Reference added.
+- Quote preview, WhatsApp text, PNG and JPG now include professional trip details.
+- Distance Pricing still requires FROM, TO and one-way KM.
+- Manual Base Fare requires FROM, TO and a negotiated one-way base fare.
+- 0 km cannot generate a distance fare.
+- Round Trip doubles the one-way base fare.
+- 171 official routes and official-route prices are preserved.
+- Airport fee, Meet & Greet, waiting, tolls, parking, gratuity and HST remain separate line items when used.
 
 GITHUB UPDATE
 1. Open the existing itsride-mobile-quote repository.
-2. Upload/replace ALL files from this V1.2 package in the repository root.
+2. Upload/replace ALL files from this V1.3 package in the repository root.
 3. Commit changes to main.
 4. Wait for GitHub Pages deployment.
 5. Open https://itsridelimo.github.io/itsride-mobile-quote/
-6. Refresh once. If an older installed Home Screen version remains, close it and reopen after the web page shows V1.2.
+6. Refresh once. If an older Home Screen version remains, close it and reopen after the web page shows V1.3.
 
 PRICING WORKFLOW
 Official Route Rate: select saved route and vehicle.
