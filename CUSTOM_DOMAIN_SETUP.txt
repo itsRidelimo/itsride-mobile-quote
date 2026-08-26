@@ -1,0 +1,28 @@
+Professional calculator URL
+
+Recommended address:
+https://quote.itsridelimo.com
+
+Bluehost DNS:
+1. Open Domains > itsridelimo.com > DNS.
+2. Add a CNAME record.
+3. Host/Name: quote
+4. Target/Points to: itsridelimo.github.io
+5. TTL: default.
+
+GitHub Pages:
+1. Open repository Settings > Pages.
+2. Under Custom domain, enter quote.itsridelimo.com.
+3. Save and wait for the DNS check.
+4. Enable Enforce HTTPS when available.
+
+Do not add the CNAME file to the repository before the DNS record is active,
+because GitHub Pages may redirect the existing calculator before the new domain works.
+
+Google Maps automatic distance:
+1. Enable Maps JavaScript API and Routes API in Google Cloud.
+2. Use a browser-restricted API key.
+3. Restrict allowed websites to:
+   https://quote.itsridelimo.com/*
+   https://itsridelimo.github.io/itsride-mobile-quote/*
+4. Add the restricted key to config.js as googleMapsApiKey.

@@ -1,7 +1,7 @@
 {
-  "name": "itsRide Mobile Rate & Quote Calculator V1.3",
+  "name": "itsRide Mobile Rate & Quote Calculator V1.4",
   "short_name": "itsRide Quote",
-  "start_url": "./?v=1.3",
+  "start_url": "./?v=1.4",
   "display": "standalone",
   "background_color": "#eef3f8",
   "theme_color": "#071c35",
@@ -17,5 +17,5 @@
       "type": "image/png"
     }
   ],
-  "description": "Mobile chauffeur fare and quotation calculator with official routes, professional quote references, trip details, custom FROM/TO distance pricing, PNG/JPG and sharing."
+  "description": "Mobile chauffeur fare and quotation calculator with official routes, automatic internal driving distance, professional quote references, trip details, PNG/JPG and sharing."
 }

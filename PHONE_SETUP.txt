@@ -1,15 +1,11 @@
-itsRide Mobile Rate & Quote Calculator V1.3
+itsRide Mobile Rate & Quote Calculator V1.4
 
 WHAT CHANGED
-- Customer pricing line renamed from Transportation to Base Fare.
-- Professional Quote Reference added automatically.
-- Optional Service Date and Pickup Time added.
-- Optional Passenger and Luggage counts added.
-- Optional Flight / Client Reference added.
-- Quote preview, WhatsApp text, PNG and JPG now include professional trip details.
-- Distance Pricing still requires FROM, TO and one-way KM.
-- Manual Base Fare requires FROM, TO and a negotiated one-way base fare.
-- 0 km cannot generate a distance fare.
+- Distance prices updated: Sedan $65 up to 25 km, SUV $80 up to 25 km and Luxury SUV $100 up to 25 km.
+- For trips over 25 km: Sedan $2.25/km, SUV $2.85/km and Luxury SUV $3.00/km.
+- Distance Pricing now calculates driving kilometres from the FROM and TO addresses when Google Maps is connected.
+- Driving kilometres remain internal and are excluded from customer preview, WhatsApp text, PNG, JPG and PDF.
+- Manual Base Fare still supports negotiated or special pricing.
 - Round Trip doubles the one-way base fare.
 - 171 official routes and official-route prices are preserved.
 - Airport fee, Meet & Greet, waiting, tolls, parking, gratuity and HST remain separate line items when used.
@@ -20,9 +16,9 @@ GITHUB UPDATE
 3. Commit changes to main.
 4. Wait for GitHub Pages deployment.
 5. Open https://itsridelimo.github.io/itsride-mobile-quote/
-6. Refresh once. If an older Home Screen version remains, close it and reopen after the web page shows V1.3.
+6. Refresh once. If an older Home Screen version remains, close it and reopen after the web page shows V1.4.
 
 PRICING WORKFLOW
 Official Route Rate: select saved route and vehicle.
-Distance Pricing: enter FROM, TO and one-way km.
+Distance Pricing: enter FROM and TO; Google Maps calculates the internal one-way driving kilometres.
 Manual Base Fare: enter FROM, TO and negotiated one-way fare.
